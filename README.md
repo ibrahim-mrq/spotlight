@@ -139,13 +139,13 @@ layout_target.xml
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--    <ImageView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_alignParentBottom="true"-->
-    <!--        android:layout_marginRight="45dp"-->
-    <!--        android:layout_marginBottom="10dp"-->
-    <!--        android:src="@drawable/ic_arrow" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_arrow" />
 
     <TextView
         android:layout_width="wrap_content"
