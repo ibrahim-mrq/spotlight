@@ -128,6 +128,34 @@ onCreate
     }
 
 ```
+<br/>
 
+layout_target.xml
 
+```xml
 
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginRight="45dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:src="@drawable/ic_arrow" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="TextView"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+
+```
