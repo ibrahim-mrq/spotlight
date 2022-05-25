@@ -9,12 +9,7 @@
 1. Gradle dependency:
 
 ```
-allprojects {
-   repositories {
-      	jcenter()
-       	maven { url "https://jitpack.io" }  //Make sure to add this in your project 
-   }
-}
+	maven { url "https://jitpack.io" }
 ```
 2. and add this
 
