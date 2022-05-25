@@ -1,3 +1,6 @@
+[![](https://jitpack.io/v/ibrahim-mrq/spotlight.svg)](https://jitpack.io/#ibrahim-mrq/spotlight)
+
+
 # spotlight
 
 
@@ -16,11 +19,7 @@ allprojects {
 2. and add this
 
 ```
-implementation 'com.github.ibrahim-mrq:library:1.0.3'
-
-or 
-
- implementation project(path: ':spotlight')
+    implementation 'com.github.ibrahim-mrq:spotlight:1.0.0'
 ```
    
 <br/>
